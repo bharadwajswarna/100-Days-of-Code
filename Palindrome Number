@@ -6,7 +6,7 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         check = [i for i in str(x)]
-        if check == check[::-1]:
+        if check ==  check[::-1]:
           c = True
         else :
           c = False
